@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <script src="https://kit.fontawesome.com/3ea4554d7e.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!--     <link rel="stylesheet" href="Styles.css"> -->
+</head>
+
+<body>
+  <header>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class=navbar__container>
+        <a href="#" id="navbar__logo"><img src="./CKA.svg" class="navbar-img">Segun</a>
+        <ul class=navbar__menu>
+          <li class="navbar__item">
+            <a href="#" class="nav__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="nav__links">About Me</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="nav__links">Project</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="nav__links">Contact Us</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" class="nav__links"><button class="navbar__btn">Services</button></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Contact Us Section -->
+    <div class="contact-us__container">
+      <div class="contact-us__wrapper">
+        <h1 class="contact_heading">Contact Us</h1>
+        <div class="description">
+          <p><i class="fa-solid fa-location-dot"></i>Address: 24, Alowonle Street Dalemo-Alakuko, Lagos</p>
+          <p><i class="fa-solid fa-envelope"></i> Email: hokedelepelumy@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> Phone: +2348100704176</p>
+          <p class="contact_description">Need to get in touch with us? Please fill out the form with your inquiry</p>
+        </div>
+
+      </div>
+
+      <form action="#">
+        <div class="names">
+          <label for="fname">
+            <p>First Name<sup>*</sup></p>
+            <input type="text" id="fname" name="fname">
+          </label>
+
+          <label for="lname">
+            <p>Last Name</p>
+            <input type="text" id="lname" name="lname">
+          </label>
+        </div>
+
+
+        <label for="email">
+          <p>Email<sup>*</sup></p>
+          <input type="email" id="email" name="email">
+        </label>
+
+        <label for="what-to-help">
+          <p>What can we help you with?</p>
+          <textarea name="what-to-help" id="what-to-help" cols="40" rows="5"></textarea>
+        </label><br>
+
+        <input type="button" value="Submit" class="contact-us-btn">
+      </form>
+
+    </div>
+  </main>
+
+  <footer class="footer_container">
+    <div class="footer-wrapper">
+      <div class="footer_icons">
+        <a href="https://facebook.com/okedele.c.segun" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com/@oluwa_CKA" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://instagram.com/oluwa_cka" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/oluwaCKA" target="_blank"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <section>
+        <div class="footer__logo">
+          <p class="attribution"><a href=""><img src="./CKA.svg" class="footer-img">Segun</a><span> © Segun Okedele
+              2022. All rights reserved</span></p>
+        </div>
+      </section>
+    </div>
+
+  </footer>
+</body>
+
+</html>
