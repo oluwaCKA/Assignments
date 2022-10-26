@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Registration</title>
+  <script src="https://kit.fontawesome.com/3ea4554d7e.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="stylee.css" rel="stylesheet" type="text/css" />
+  <!-- <link rel="stylesheet" href="Styles.css"> -->
+</head>
+
+<body>
+  <header>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+
+        <select name="" id="dropdown" class="dropdown">
+          <option value="English" class="dropbtn">English</option>
+          <option value="Yoruba" class="dropbtn">Yoruba</option>
+          <option value="Pidgin" class="dropbtn">Pidgin</option>
+        </select>
+
+        <div class="login">
+          <p>Already have an account?</p>
+          <a href="./login.html" target="_blank"><button class="login-btn">Log in</button></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Form Section -->
+    <div class="registration__container card card-reg">
+      <div class="description">
+        <h1 class="registration__heading">CREATE ACCOUNT</h1>
+        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni veritatis accusamus aliquam quis facilis
+          officia quos illo quibusdam, reiciendis at amet ratione qui vel pariatur ea esse est quasi libero?</p>
+      </div>
+
+      <form action="./login.html" class="form-class">
+        <div class="names">
+          <label for="fname">
+            <p>First Name<sup>*</sup></p>
+            <input type="text" id="fname" name="fname" required>
+          </label>
+
+          <label for="lname">
+            <p>Last Name</p>
+            <input type="text" id="lname" name="lname">
+          </label>
+        </div>
+        <label for="">
+          <p>Phone Number</p>
+          <input type="text">
+        </label>
+
+        <label for="email">
+          <p>Email<sup>*</sup></p>
+          <input type="email" id="email" name="email" required>
+        </label><br>
+
+        <label for="cars">Gender:</label>
+
+        <select name="Gender" id="Gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select><br>
+
+        <label for="birthday">Date of Birth:</label><br>
+        <input type="date" id="birthday" name="birthday"><br>
+
+        <label for="favcolor">Select your favorite color:</label><br>
+        <input type="color"><br>
+
+
+        <label for="password">
+          <p>Password<sup>*</sup></p>
+          <input type="password" id="password" name="password" required>
+        </label><br>
+
+        <label for="terms-and-condition">
+          <input type="checkbox" id="terms-and-condition" name="terms-and-condition" value="terms-and-condition"
+            class="terms" required><span class="t-c-span">I agree all statements in <a href="" class="t-c">Terms and
+              Conditions</a><br></span>
+
+        </label>
+        <label for="submit" class="submit">
+          <input type="submit" value="CREATE ACCOUNT" class="submit">
+        </label>
+
+
+      </form>
+
+    </div>
+  </main>
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
