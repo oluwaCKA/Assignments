@@ -1,0 +1,64 @@
+/* Grid Layout Design */
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background: rgb(150, 150, 150);
+    margin: 0;
+}
+
+.grid_container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+.card_a {
+    background: rgb(233, 81, 44);
+    grid-area: a;
+
+}
+
+.card_b {
+    background: rgb(253, 163, 41);
+    grid-area: b;
+}
+
+.card_c { 
+    background: rgb(27, 169, 71);
+    grid-area: c;
+    grid-template-rows: 250px;
+}
+
+.card_d {
+    background: rgb(30, 175, 250);
+    grid-area: d;
+    grid-template-rows: 250px;
+
+}
+
+.card_e {
+    background:rgb(30, 175, 250);
+    grid-area: e;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 100px 130px;
+    grid-template-areas:
+    "a a b"
+    "c d d"
+    "c e e";
+    gap: 12px;
+    width: 50rem;
+    margin: auto;
+    background: rgb(26, 28, 40);
+    margin: 10rem auto;
+}
+
+.grid_container {
+    padding: 2rem;
+    text-align: center;
+}
