@@ -3,7 +3,7 @@
 
 
 ## 🚀 About Me
-I'm a Front-end developer, a digital artist, and a tech enthusiast
+I'm a Front-end developer, a digital artist, and a tech enthusiast.
 I am open to internship or any frontend entry level job to help improve my skill in this career path I have chosen...
 
 
